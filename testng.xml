@@ -3,14 +3,14 @@
 <suite name="OOPSConceptPOM" verbose="1" >
 
   <test name="SIT with ff" parallel="methods" thread-count="6">
-  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="browser" value="Remote"></parameter>
     <classes>
     	<class name="com.MyTest.LoginTest"/>
     </classes>
  </test>
  
  <test name="SIT with chrome" parallel="methods" thread-count="5">
- <parameter name="browser" value="edge"></parameter>
+ <parameter name="browser" value="IE"></parameter>
  	<classes>
     	<class name="com.MyTest.LoginTest"/>
     </classes>
