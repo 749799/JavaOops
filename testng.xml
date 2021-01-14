@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="OOPSConceptPOM" verbose="1" >
 
-  <test name="SIT with ff" parallel="methods" thread-count="5">
+  <test name="SIT with ff" parallel="methods" thread-count="6">
   <parameter name="browser" value="ff"></parameter>
     <classes>
     	<class name="com.MyTest.LoginTest"/>
