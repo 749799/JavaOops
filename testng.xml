@@ -10,7 +10,7 @@
  </test>
  
  <test name="SIT with chrome" parallel="methods" thread-count="5">
- <parameter name="browser" value="chrome"></parameter>
+ <parameter name="browser" value="IE"></parameter>
  	<classes>
     	<class name="com.MyTest.LoginTest"/>
     </classes>
